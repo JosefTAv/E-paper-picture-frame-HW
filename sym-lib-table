@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "ESP32-C3-MINI-1-N4")(type "KiCad")(uri "C:/Users/Josef/Downloads/LIB_ESP32-C3-MINI-1-N4/ESP32-C3-MINI-1-N4/KiCad/ESP32-C3-MINI-1-N4.kicad_sym")(options "")(descr ""))
   (lib (name "ESP32-C6-MINI-1-N4")(type "KiCad")(uri "${KIPRJMOD}/Libraries/ESP32-C6-MINI-1-N4/KiCad/ESP32-C6-MINI-1-N4.kicad_sym")(options "")(descr ""))
+  (lib (name "5051102491")(type "KiCad")(uri "${KIPRJMOD}/Libraries/LIB_5051102491/5051102491/KiCad/5051102491.kicad_sym")(options "")(descr ""))
+  (lib (name "E-paper-library")(type "KiCad")(uri "${KIPRJMOD}/Libraries/E-paper-library.kicad_sym")(options "")(descr ""))
 )

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '5051102491'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "5051102491" (!) = "", "5051102491", "Other", "", "", "5051102491", "https://www.arrow.com/en/products/5051102491/molex?utm_currency=USD&region=nac", "Easy-On FFC/FPC Connector 0.50mm Pitch, FD19 Series, Right-Angle, Bottom  Contact, 1.90mm Height, 24 Circuits, Gold over Nickel Plating", "https://www.molex.com/en-us/products/part-detail-pdf/5051102491?display=pdf", "4.06 mm"
+END_PART
+
+END.

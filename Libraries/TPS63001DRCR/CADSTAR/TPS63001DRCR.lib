@@ -1,0 +1,19 @@
+.TPS63001DRCR :1 ;Switching Voltage Regulators 96% Buck-Boost Conv
+TPS74901DRCR
+*STM IC
+*NGS
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8 9=9 10=10 11=EP1
+*PLB 1="VOUT" 2="L2" 3="PGND" 4="L1" 5="VIN" 6="EN" 7="PS/SYNC" 8="VINA" 9="GND" 10="FB" 11="EP"
+*MXP 15
+*DFN TPS63001DRCR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS63001DRCR)
+~!Mouser Part Number (595-TPS63001DRCR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS63001DRCR?qs=QZuYiDxzHagn01UZf%2F%252B1Bw%3D%3D)
+~!Arrow Part Number (TPS63001DRCR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tps63001drcr/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/tps63001.pdf?ts=1616520267195&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTPS63001DRCT)
+~!Height (-)
+~!3D_Model (TPS63001DRCR)
+TPS63001DRCR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 
