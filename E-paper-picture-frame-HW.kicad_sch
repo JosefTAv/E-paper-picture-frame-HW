@@ -5,6 +5,32 @@
 	(uuid "84f37c25-92ec-4cd3-b0ad-d93e10e73cdb")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 161.29 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "295e430f-8742-4cc2-9359-9c29cc37e7e9")
+	)
+	(bus
+		(pts
+			(xy 104.14 93.98) (xy 104.14 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc68cf7-9306-4db6-82ba-5dbbf4341dfa")
+	)
+	(bus
+		(pts
+			(xy 104.14 67.31) (xy 161.29 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "147daeca-8d7d-46ef-bc6a-429e5f5f9869")
+	)
 	(wire
 		(pts
 			(xy 151.13 96.52) (xy 167.64 96.52)
@@ -27,6 +53,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 88.9) (xy 110.49 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4344685e-ff64-4e16-b913-1701a1a70266")
+	)
+	(wire
+		(pts
 			(xy 151.13 99.06) (xy 170.18 99.06)
 		)
 		(stroke
@@ -34,6 +70,16 @@
 			(type default)
 		)
 		(uuid "49a8c3a1-21dc-4802-940f-2b29e86bcf48")
+	)
+	(bus
+		(pts
+			(xy 161.29 67.31) (xy 161.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb96251-89a3-4198-a2ba-10231e6ffa04")
 	)
 	(wire
 		(pts
@@ -54,6 +100,16 @@
 			(type default)
 		)
 		(uuid "5701ca65-61b7-4c5c-a293-8227405da3f6")
+	)
+	(wire
+		(pts
+			(xy 110.49 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b933f6-3bb0-4d93-9e5f-915d40b2e557")
 	)
 	(wire
 		(pts
@@ -95,6 +151,26 @@
 		)
 		(uuid "961bc592-9a5b-426b-b27a-97b5b0982126")
 	)
+	(bus
+		(pts
+			(xy 161.29 88.9) (xy 175.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9682446d-bf3e-4d81-9768-f3723e8ffa8a")
+	)
+	(bus
+		(pts
+			(xy 95.25 93.98) (xy 104.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97618d67-f591-4c29-9619-ff44d0b884e4")
+	)
 	(wire
 		(pts
 			(xy 151.13 86.36) (xy 175.26 86.36)
@@ -127,7 +203,7 @@
 	)
 	(bus
 		(pts
-			(xy 151.13 88.9) (xy 175.26 88.9)
+			(xy 151.13 88.9) (xy 161.29 88.9)
 		)
 		(stroke
 			(width 0)
@@ -144,6 +220,16 @@
 			(type default)
 		)
 		(uuid "e4c9cfbc-b16b-46d6-af4c-11248e069d9c")
+	)
+	(wire
+		(pts
+			(xy 95.25 88.9) (xy 110.49 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd7914f-baf8-4688-af51-2c8f5d67a920")
 	)
 	(sheet
 		(at 58.42 80.01)
@@ -177,6 +263,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "EPD3V3_EN" input
+			(at 95.25 85.09 0)
+			(uuid "ded39b67-8c2e-4163-b9f9-0603fd7b2e19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EPD BUSY(CSB)" output
+			(at 95.25 100.33 0)
+			(uuid "99e7ec1f-4ac2-45e0-b2c4-a5b3e2c3c6dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EPD RST" input
+			(at 95.25 106.68 0)
+			(uuid "9acb00ea-71fa-425f-962d-98d9e0ec1591")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EPD CS" input
+			(at 95.25 88.9 0)
+			(uuid "40929a13-1311-4de1-8fe0-1251165892a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EPD DC" input
+			(at 95.25 91.44 0)
+			(uuid "f0eefb13-5414-41f9-b58a-208a5bdfa4d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI" bidirectional
+			(at 95.25 93.98 0)
+			(uuid "f2b97c92-f8dd-4033-aa51-cdf6445e262c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -393,9 +539,9 @@
 				(justify left)
 			)
 		)
-		(pin "SD_PWR_CTR" input
+		(pin "SD3V3_EN" input
 			(at 175.26 77.47 180)
-			(uuid "53ccf010-f339-4073-b52f-86c4178853c1")
+			(uuid "c0477f38-4f2d-4a1c-9e0b-8ff19f18456e")
 			(effects
 				(font
 					(size 1.27 1.27)

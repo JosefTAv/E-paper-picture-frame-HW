@@ -1,0 +1,139 @@
+(footprint "IND-SMD_2P-L5.0-W5.0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "6fd074e8-11fa-43b3-9ef0-321db7274c6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND-SMD_2P-L5.0-W5.0"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "00d53537-824d-4be9-85d7-8c6e1e4234dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a75bd670-c802-4137-92fd-7f0a6574354f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b902a4b-5769-453e-a03f-e2041b358f98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.71 -2.57)
+		(end 0.7 -2.57)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1ee4f9d-46e3-4c37-9a1b-f6c3334bc696")
+	)
+	(fp_line
+		(start -0.69 2.6)
+		(end 0.64 2.6)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ea6f79a-ca27-4a10-a712-f8d985f693ae")
+	)
+	(fp_line
+		(start 0.64 2.6)
+		(end 0.65 2.61)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd1192ab-fca3-4185-8bac-41c502950cdf")
+	)
+	(fp_line
+		(start 0.7 -2.57)
+		(end 0.71 -2.57)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd7dfec4-f100-4a77-9d6c-ec9945a9fdb7")
+	)
+	(fp_circle
+		(center -2.5 -2.5)
+		(end -2.47 -2.5)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2139b8ca-d00f-4f2c-902b-52179738f555")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "849abd2e-37cc-400b-ad74-c9e4963797dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.9 0 270)
+		(size 4.2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "13290afe-7321-4f82-8c2f-6758e9f7ce71")
+	)
+	(pad "2" smd rect
+		(at 1.9 0 270)
+		(size 4.2 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8130446e-d883-4559-9dc7-9deb7054b1a9")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Josef/Documents/KiCad/easyeda2kicad/L_10uH.3dshapes/IND-SMD_2P-L5.0-W5.0.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
