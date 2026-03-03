@@ -3311,7 +3311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbfc0656-72c9-459d-b27a-2dc4b472c3bf")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 180.34 24.13 0)
 			(effects
 				(font
@@ -3507,7 +3507,7 @@
 		(instances
 			(project "E-paper-picture-frame-HW"
 				(path "/84f37c25-92ec-4cd3-b0ad-d93e10e73cdb/9b514820-994d-4acc-ba3e-efc41ebe2f4e"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)
