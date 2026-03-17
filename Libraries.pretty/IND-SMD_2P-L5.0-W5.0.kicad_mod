@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 -4 0)
 		(layer "F.SilkS")
-		(uuid "6fd074e8-11fa-43b3-9ef0-321db7274c6a")
+		(uuid "684eceea-75db-4819-929f-e7858cab8039")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "IND-SMD_2P-L5.0-W5.0"
 		(at 0 4 0)
 		(layer "F.Fab")
-		(uuid "00d53537-824d-4be9-85d7-8c6e1e4234dc")
+		(uuid "7f031dcc-492e-4e1c-9667-3fec7b0552ef")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a75bd670-c802-4137-92fd-7f0a6574354f")
+		(uuid "a6593ed8-22d9-4aef-b999-e9663758ad60")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4b902a4b-5769-453e-a03f-e2041b358f98")
+		(uuid "49ef2b6f-9b6c-4dc4-b85b-b5077bd54020")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b1ee4f9d-46e3-4c37-9a1b-f6c3334bc696")
+		(uuid "4677b497-1651-4188-9ab9-19384d246822")
 	)
 	(fp_line
 		(start -0.69 2.6)
@@ -68,7 +68,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4ea6f79a-ca27-4a10-a712-f8d985f693ae")
+		(uuid "2a0ec9a4-1d6f-4d2f-b003-917355ac762f")
 	)
 	(fp_line
 		(start 0.64 2.6)
@@ -78,7 +78,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bd1192ab-fca3-4185-8bac-41c502950cdf")
+		(uuid "82e22827-4066-43f9-9849-5c5c364d41c2")
 	)
 	(fp_line
 		(start 0.7 -2.57)
@@ -88,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fd7dfec4-f100-4a77-9d6c-ec9945a9fdb7")
+		(uuid "e52770cf-8236-4430-aab7-694cbc97dc8f")
 	)
 	(fp_circle
 		(center -2.5 -2.5)
@@ -99,12 +99,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "2139b8ca-d00f-4f2c-902b-52179738f555")
+		(uuid "63b3005d-e984-4ff8-a8b5-c3fe784b5d55")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "849abd2e-37cc-400b-ad74-c9e4963797dc")
+		(uuid "c6d843de-cb4a-40a9-a61a-2b1f3f07468e")
 		(effects
 			(font
 				(size 1 1)
@@ -116,16 +116,16 @@
 		(at -1.9 0 270)
 		(size 4.2 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "13290afe-7321-4f82-8c2f-6758e9f7ce71")
+		(uuid "d6d0d3f3-a5e4-48b5-a3ac-c194fd23c6f9")
 	)
 	(pad "2" smd rect
 		(at 1.9 0 270)
 		(size 4.2 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "8130446e-d883-4559-9dc7-9deb7054b1a9")
+		(uuid "e080cf46-b9c5-4cd9-b4aa-f9661181a375")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Josef/Documents/KiCad/easyeda2kicad/L_10uH.3dshapes/IND-SMD_2P-L5.0-W5.0.wrl"
+	(model "C:/Users/Josef/Documents/KiCad/easyeda2kicad/shielded_ind.3dshapes/IND-SMD_2P-L5.0-W5.0.wrl"
 		(offset
 			(xyz 0 -0 -0)
 		)

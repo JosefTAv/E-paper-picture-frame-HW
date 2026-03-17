@@ -2759,7 +2759,7 @@
 				)
 			)
 		)
-		(property "Footprint" "L_10uH:IND-SMD_2P-L5.0-W5.0"
+		(property "Footprint" "shielded_ind:IND-SMD_2P-L5.0-W5.0"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -3838,45 +3838,41 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IC"
-			(at 29.21 7.62 0)
+		(property "Reference" "U"
+			(at 0 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
 		(property "Value" "TPS63001DRCR"
-			(at 29.21 5.08 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Footprint" "TPS74901DRCR"
-			(at 29.21 -94.92 0)
+		(property "Footprint" "TPS63001DRCR:VSON-10_L3.0-W3.0-P0.50-TL-EP_TPS62410DRCR"
+			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63001.pdf?ts=1616520267195&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTPS63001DRCT"
-			(at 29.21 -194.92 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_TI_TPS63001DRCR_TPS63001DRCR_C28060.html"
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Switching Voltage Regulators 96% Buck-Boost Conv"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3885,144 +3881,29 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 29.21 -394.92 0)
+		(property "LCSC Part" "C28060"
+			(at 0 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 29.21 -494.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS63001DRCR"
-			(at 29.21 -594.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TPS63001DRCR"
-			(at 29.21 -694.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS63001DRCR?qs=QZuYiDxzHagn01UZf%2F%252B1Bw%3D%3D"
-			(at 29.21 -794.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TPS63001DRCR"
-			(at 29.21 -894.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps63001drcr/texas-instruments?utm_currency=USD&region=nac"
-			(at 29.21 -994.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(symbol "TPS63001DRCR_1_1"
+		(symbol "TPS63001DRCR_0_1"
 			(rectangle
-				(start 5.08 2.54)
-				(end 27.94 -15.24)
+				(start -10.16 12.7)
+				(end 10.16 -12.7)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type background)
 				)
 			)
-			(pin passive line
-				(at 0 0 0)
-				(length 5.08)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -2.54 0)
-				(length 5.08)
-				(name "L2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -5.08 0)
-				(length 5.08)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -7.62 0)
+			(pin unspecified line
+				(at -15.24 10.16 0)
 				(length 5.08)
 				(name "L1"
 					(effects
@@ -4039,8 +3920,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -10.16 0)
+			(pin power_in line
+				(at -15.24 5.08 0)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -4057,44 +3938,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -12.7 0)
-				(length 5.08)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 33.02 0 180)
-				(length 5.08)
-				(name "PS/SYNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 33.02 -2.54 180)
+			(pin power_in line
+				(at -15.24 2.54 0)
 				(length 5.08)
 				(name "VINA"
 					(effects
@@ -4111,17 +3956,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 33.02 -5.08 180)
+			(pin unspecified line
+				(at -15.24 -2.54 0)
 				(length 5.08)
-				(name "GND"
+				(name "EN"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4129,8 +3974,62 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 33.02 -7.62 180)
+			(pin unspecified line
+				(at -15.24 -10.16 0)
+				(length 5.08)
+				(name "PS/SYNC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 10.16 180)
+				(length 5.08)
+				(name "L2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 5.08 180)
+				(length 5.08)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 0 180)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -4147,17 +4046,53 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 33.02 -10.16 180)
+			(pin power_in line
+				(at 15.24 -5.08 180)
 				(length 5.08)
-				(name "EP"
+				(name "PAD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "EP1"
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -7.62 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -10.16 180)
+				(length 5.08)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
