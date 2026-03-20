@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "3dac3fcf-94a9-4348-8e70-507085432870")
 	(paper "A4")
+	(title_block
+		(title "MCU interface")
+		(date "2026-03-19")
+		(rev "1.0")
+		(company "Josef")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint_Probe"
 			(pin_numbers
@@ -115,6 +121,262 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Capacitors:0402,100nF,(2)"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.032 1.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100nF"
+				(at 2.032 -0.3782 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:C_0402"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C307331"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "8389599"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.008USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "CL05B104KB54PNC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rated" "50V"
+				(at 2.032 -2.0462 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "±10%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Capacitance" "100nF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402,100nF,(2)_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402,100nF,(2)_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -342,262 +604,6 @@
 				)
 			)
 			(symbol "0402,1uF_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 3.175)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.175)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_JLCPCB-Capacitors:0603,100nF"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 2.032 1.668 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "100nF"
-				(at 2.032 -0.3782 0)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_JLCPCB:C_0603"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C14663"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Stock" "70324515"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Price" "0.006USD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Process" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Minimum Qty" "20"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Attrition Qty" "10"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Class" "Basic Component"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part" "CC0603KRX7R9BB104"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Voltage Rated" "50V"
-				(at 2.032 -2.0462 0)
-				(effects
-					(font
-						(size 0.8 0.8)
-					)
-					(justify left)
-				)
-			)
-			(property "Tolerance" "±10%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Capacitance" "100nF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Temperature Coefficient" "X7R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0603,100nF_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0.635) (xy 1.27 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.635) (xy 1.27 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0603,100nF_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 3.175)
@@ -2912,6 +2918,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 505.46 57.15)
@@ -3480,6 +3587,18 @@
 		(uuid "3d8c65a2-e234-4757-9809-eec8761bfefb")
 	)
 	(junction
+		(at 193.04 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64298e71-840f-403d-8eae-0fb3b4b2063e")
+	)
+	(junction
+		(at 146.05 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79466f68-9662-416d-8b95-011a81fd0d66")
+	)
+	(junction
 		(at 189.23 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3542,7 +3661,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 24.13) (xy 196.85 24.13)
+			(xy 189.23 24.13) (xy 193.04 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3569,6 +3688,16 @@
 			(type default)
 		)
 		(uuid "12a62d8a-1a97-438c-874a-8b6b637589de")
+	)
+	(wire
+		(pts
+			(xy 193.04 21.59) (xy 193.04 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14289571-d30b-48bf-9088-99f926fb50fa")
 	)
 	(wire
 		(pts
@@ -3639,6 +3768,16 @@
 			(type default)
 		)
 		(uuid "22d35901-6a20-4a3a-a573-39ff202f1845")
+	)
+	(wire
+		(pts
+			(xy 146.05 92.71) (xy 146.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2492d313-bde5-4828-9a03-bfeb7cbbae61")
 	)
 	(wire
 		(pts
@@ -3919,6 +4058,16 @@
 			(type default)
 		)
 		(uuid "6f1ad734-a61c-40fa-aaad-c4594daf90c2")
+	)
+	(wire
+		(pts
+			(xy 193.04 24.13) (xy 196.85 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75359718-e814-4940-8812-50f3bef5971e")
 	)
 	(wire
 		(pts
@@ -4222,6 +4371,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 91.44) (xy 146.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82a7737-7a37-4714-bbe1-cdbffa60b398")
+	)
+	(wire
+		(pts
 			(xy 181.61 36.83) (xy 189.23 36.83)
 		)
 		(stroke
@@ -4339,6 +4498,16 @@
 			(type default)
 		)
 		(uuid "f6d5416d-ad8b-416d-9b59-049749baf0c1")
+	)
+	(wire
+		(pts
+			(xy 147.32 91.44) (xy 146.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f729db78-8421-40d2-94cc-d629ac5d43ac")
 	)
 	(wire
 		(pts
@@ -15382,7 +15551,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 146.05 90.17 0)
+		(at 146.05 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15391,7 +15560,7 @@
 		(fields_autoplaced yes)
 		(uuid "01e3c2d0-ed98-433c-aea9-f33d7c394a53")
 		(property "Reference" "#PWR048"
-			(at 146.05 96.52 0)
+			(at 146.05 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15400,7 +15569,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 146.05 93.98 0)
+			(at 146.05 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15408,7 +15577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 90.17 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15417,7 +15586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 90.17 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15426,7 +15595,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 146.05 90.17 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15534,7 +15703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53545bab-0507-44ef-a2f8-8ee2ac7270e8")
-		(property "Reference" "TP18"
+		(property "Reference" "TP14"
 			(at 128.27 111.4424 0)
 			(effects
 				(font
@@ -15543,7 +15712,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_EPD_RST"
+		(property "Value" "TestPoint_CS1"
 			(at 128.27 113.9824 0)
 			(effects
 				(font
@@ -15585,7 +15754,7 @@
 		(instances
 			(project "E-paper-picture-frame-HW"
 				(path "/84f37c25-92ec-4cd3-b0ad-d93e10e73cdb/d807d418-2472-460c-ab45-37b885561d4b"
-					(reference "TP18")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -15601,7 +15770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5798c748-f8df-4e4e-8fea-5ead20159f91")
-		(property "Reference" "TP15"
+		(property "Reference" "TP17"
 			(at 128.27 126.6824 0)
 			(effects
 				(font
@@ -15610,7 +15779,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_EPD_RST"
+		(property "Value" "TestPoint_MISO"
 			(at 128.27 129.2224 0)
 			(effects
 				(font
@@ -15652,7 +15821,7 @@
 		(instances
 			(project "E-paper-picture-frame-HW"
 				(path "/84f37c25-92ec-4cd3-b0ad-d93e10e73cdb/d807d418-2472-460c-ab45-37b885561d4b"
-					(reference "TP15")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -15731,6 +15900,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 147.32 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5baad71f-3135-41de-ad53-0db3ea8f70ab")
+		(property "Reference" "#FLG01"
+			(at 149.225 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 151.13 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ed10507-8ff0-424d-b3d5-efb706399377")
+		)
+		(instances
+			(project ""
+				(path "/84f37c25-92ec-4cd3-b0ad-d93e10e73cdb/d807d418-2472-460c-ab45-37b885561d4b"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,10uF")
 		(at 181.61 30.48 0)
 		(unit 1)
@@ -15740,7 +15977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61679ed8-d377-4b03-8326-35521bc21020")
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 184.15 27.9399 0)
 			(effects
 				(font
@@ -15920,7 +16157,7 @@
 		(instances
 			(project "E-paper-picture-frame-HW"
 				(path "/84f37c25-92ec-4cd3-b0ad-d93e10e73cdb/d807d418-2472-460c-ab45-37b885561d4b"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -16065,7 +16302,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
+		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF,(2)")
 		(at 196.85 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16074,7 +16311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d4e3bc7-69f5-444d-af2a-7bfc40602fe3")
-		(property "Reference" "C25"
+		(property "Reference" "C26"
 			(at 199.39 27.9399 0)
 			(effects
 				(font
@@ -16092,7 +16329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:C_0603"
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 195.072 30.48 90)
 			(effects
 				(font
@@ -16101,7 +16338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.pdf"
 			(at 196.85 30.48 0)
 			(effects
 				(font
@@ -16110,7 +16347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 196.85 30.48 0)
 			(effects
 				(font
@@ -16119,7 +16356,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C307331"
 			(at 196.85 30.48 0)
 			(effects
 				(font
@@ -16128,7 +16365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "70324515"
+		(property "Stock" "8389599"
 			(at 196.85 30.48 0)
 			(effects
 				(font
@@ -16137,7 +16374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.006USD"
+		(property "Price" "0.008USD"
 			(at 196.85 30.48 0)
 			(effects
 				(font
@@ -16191,7 +16428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 196.85 30.48 0)
 			(effects
 				(font
@@ -16200,7 +16437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "CC0603KRX7R9BB104"
+		(property "Part" "CL05B104KB54PNC"
 			(at 196.85 30.48 0)
 			(effects
 				(font
@@ -16254,7 +16491,7 @@
 		(instances
 			(project "E-paper-picture-frame-HW"
 				(path "/84f37c25-92ec-4cd3-b0ad-d93e10e73cdb/d807d418-2472-460c-ab45-37b885561d4b"
-					(reference "C25")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -16270,7 +16507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b50e2c7-5c2f-4cc8-8525-c8aacf5941d0")
-		(property "Reference" "R23"
+		(property "Reference" "R26"
 			(at 83.82 34.2899 0)
 			(effects
 				(font
@@ -16483,7 +16720,7 @@
 			)
 			(project "E-paper-picture-frame-HW"
 				(path "/84f37c25-92ec-4cd3-b0ad-d93e10e73cdb/d807d418-2472-460c-ab45-37b885561d4b"
-					(reference "R23")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -16797,7 +17034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fa59c93-a43d-4c34-8948-c98b7a9885c3")
-		(property "Reference" "TP14"
+		(property "Reference" "TP16"
 			(at 128.27 121.6024 0)
 			(effects
 				(font
@@ -16806,7 +17043,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_EPD_RST"
+		(property "Value" "TestPoint_MOSI"
 			(at 128.27 124.1424 0)
 			(effects
 				(font
@@ -16848,7 +17085,7 @@
 		(instances
 			(project "E-paper-picture-frame-HW"
 				(path "/84f37c25-92ec-4cd3-b0ad-d93e10e73cdb/d807d418-2472-460c-ab45-37b885561d4b"
-					(reference "TP14")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -16864,7 +17101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91d48762-1056-48ea-8cc5-d1ddef16bdfc")
-		(property "Reference" "R21"
+		(property "Reference" "R24"
 			(at 39.37 34.2899 0)
 			(effects
 				(font
@@ -17077,7 +17314,7 @@
 			)
 			(project "E-paper-picture-frame-HW"
 				(path "/84f37c25-92ec-4cd3-b0ad-d93e10e73cdb/d807d418-2472-460c-ab45-37b885561d4b"
-					(reference "R21")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -17165,7 +17402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a08e6bec-2eb6-4fe8-9ae6-e166c39dc039")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 148.1933 36.83 0)
 			(effects
 				(font
@@ -17378,7 +17615,7 @@
 			)
 			(project "E-paper-picture-frame-HW"
 				(path "/84f37c25-92ec-4cd3-b0ad-d93e10e73cdb/d807d418-2472-460c-ab45-37b885561d4b"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -17394,7 +17631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1151e52-7320-4e85-8903-659107a509a3")
-		(property "Reference" "R22"
+		(property "Reference" "R25"
 			(at 67.31 34.2899 0)
 			(effects
 				(font
@@ -17607,7 +17844,7 @@
 			)
 			(project ""
 				(path "/84f37c25-92ec-4cd3-b0ad-d93e10e73cdb/d807d418-2472-460c-ab45-37b885561d4b"
-					(reference "R22")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -17695,7 +17932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b00d8da8-e0ed-491b-a881-2bb2cc37a180")
-		(property "Reference" "C22"
+		(property "Reference" "C23"
 			(at 45.72 44.4499 0)
 			(effects
 				(font
@@ -17881,7 +18118,7 @@
 			)
 			(project ""
 				(path "/84f37c25-92ec-4cd3-b0ad-d93e10e73cdb/d807d418-2472-460c-ab45-37b885561d4b"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -17897,7 +18134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c004c1ed-623f-43b3-95e4-4d4d10d8ca71")
-		(property "Reference" "TP16"
+		(property "Reference" "TP18"
 			(at 128.27 131.7624 0)
 			(effects
 				(font
@@ -17906,7 +18143,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_EPD_RST"
+		(property "Value" "TestPoint_SCK"
 			(at 128.27 134.3024 0)
 			(effects
 				(font
@@ -17948,7 +18185,7 @@
 		(instances
 			(project "E-paper-picture-frame-HW"
 				(path "/84f37c25-92ec-4cd3-b0ad-d93e10e73cdb/d807d418-2472-460c-ab45-37b885561d4b"
-					(reference "TP16")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -17964,7 +18201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cefd8145-922a-4a1e-81ed-6573865024e0")
-		(property "Reference" "C24"
+		(property "Reference" "C25"
 			(at 191.77 27.9399 0)
 			(effects
 				(font
@@ -18144,7 +18381,7 @@
 		(instances
 			(project "E-paper-picture-frame-HW"
 				(path "/84f37c25-92ec-4cd3-b0ad-d93e10e73cdb/d807d418-2472-460c-ab45-37b885561d4b"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -18524,7 +18761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc473646-4dc9-427b-a05d-0bcfc780c182")
-		(property "Reference" "TP17"
+		(property "Reference" "TP15"
 			(at 128.27 116.5224 0)
 			(effects
 				(font
@@ -18533,7 +18770,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_EPD_RST"
+		(property "Value" "TestPoint_CS0"
 			(at 128.27 119.0624 0)
 			(effects
 				(font
@@ -18575,7 +18812,75 @@
 		(instances
 			(project "E-paper-picture-frame-HW"
 				(path "/84f37c25-92ec-4cd3-b0ad-d93e10e73cdb/d807d418-2472-460c-ab45-37b885561d4b"
-					(reference "TP17")
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 193.04 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fff1c759-741d-4bce-b3c4-00a776378b2b")
+		(property "Reference" "#FLG03"
+			(at 193.04 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 193.0399 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 193.04 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27c08b7d-4747-4bf0-b61b-da38cbc47545")
+		)
+		(instances
+			(project "E-paper-picture-frame-HW"
+				(path "/84f37c25-92ec-4cd3-b0ad-d93e10e73cdb/d807d418-2472-460c-ab45-37b885561d4b"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
