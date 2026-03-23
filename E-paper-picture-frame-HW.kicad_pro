@@ -589,6 +589,10 @@
       {
         "netclass": "signal",
         "pattern": "*GPIO*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*/BAT*"
       }
     ]
   },
