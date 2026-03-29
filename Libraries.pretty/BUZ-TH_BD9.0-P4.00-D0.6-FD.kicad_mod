@@ -1,0 +1,159 @@
+(footprint "BUZ-TH_BD9.0-P4.00-D0.6-FD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "450f54b8-432c-4b5b-a645-c6c48b6ef921")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BUZ-TH_BD9.0-P4.00-D0.6-FD"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "78f35ed7-88d2-4955-a8e0-4c0feba8bce4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdcf44d4-b56b-40ad-ab80-09698f0c0303")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26c24798-3c8a-44da-9c31-ec3ae1ae9ff7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 0.74 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3ce225b5-ed77-4dd9-a241-1d78d91e6eb2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.5 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e6ccd718-d293-4519-8d76-883b1dd66d9d")
+	)
+	(fp_circle
+		(center -4.5 4.5)
+		(end -4.47 4.5)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "84a349bd-5c72-4be1-bff4-cf39f5722ecc")
+	)
+	(fp_circle
+		(center -2 0)
+		(end -1.85 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c75925db-4298-4cba-b40e-8f09a4c544e4")
+	)
+	(fp_circle
+		(center 2 0)
+		(end 2.15 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f66bbb43-2531-46ee-8b7f-5d692096edab")
+	)
+	(fp_text user "+"
+		(at -4.04 0.99 0)
+		(layer "F.SilkS")
+		(uuid "67b0bea0-b7cb-452d-8d0c-9ccdfb27e43b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8ba2536f-f317-469c-8b0c-3a396d7b7555")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2 0)
+		(size 1.8 1.8)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9080e655-0c41-4c0b-b671-f7ce6e829d75")
+	)
+	(pad "2" thru_hole circle
+		(at 2 0)
+		(size 1.8 1.8)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "afba9f9c-2595-45ee-a27d-0f6ce805105c")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Josef/Documents/KiCad/easyeda2kicad/9042_buzzer.3dshapes/BUZ-TH_D9.0-H5.5-P4.0.wrl"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 270)
+		)
+	)
+)
