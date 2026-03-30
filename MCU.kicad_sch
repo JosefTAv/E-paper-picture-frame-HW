@@ -15739,7 +15739,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "938426fc-fb0a-4498-b95e-723ff15b1759")
+		(uuid "81ed2466-b0ae-44f8-a7b5-30be61115673")
 	)
 	(label "SPI2.SCK"
 		(at 60.96 115.57 0)

@@ -9453,6 +9453,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 111.76) (xy 156.21 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "966d6d76-2a18-4c07-9476-f5fe07a7e18c")
+	)
+	(wire
+		(pts
 			(xy 31.75 111.76) (xy 27.94 111.76)
 		)
 		(stroke
@@ -10241,16 +10251,6 @@
 		)
 		(uuid "fb22ea92-fa9d-4d23-b6ff-a31622c80d0d")
 	)
-	(wire
-		(pts
-			(xy 156.21 111.76) (xy 143.51 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdadbcd3-d85b-4af3-bc25-ffd460feb350")
-	)
 	(label "VDD_EXT_OPEN"
 		(at 193.04 143.51 0)
 		(effects
@@ -10485,6 +10485,16 @@
 			(justify left bottom)
 		)
 		(uuid "6aaabff7-cfd5-4b43-be5f-429dda473e03")
+	)
+	(label "PROG"
+		(at 144.78 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e5997b5-b3ff-4eb8-a6e7-ed51fb7e54ac")
 	)
 	(label "L2"
 		(at 144.78 26.67 180)

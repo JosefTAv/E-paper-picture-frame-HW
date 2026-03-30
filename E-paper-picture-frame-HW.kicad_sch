@@ -1407,7 +1407,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI{SCK MOSI MISO}" bidirectional
+		(pin "SPI{SCK MOSI}" bidirectional
 			(at 93.98 92.71 0)
 			(uuid "430a1224-5e17-42e2-aa08-5107c38520df")
 			(effects
