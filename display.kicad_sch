@@ -8012,7 +8012,7 @@
 		)
 		(uuid "7ea8a6fd-95a1-4563-a9bb-b3a4bbfc2cd1")
 	)
-	(hierarchical_label "SPI{SCK MOSI}"
+	(hierarchical_label "SPI{SCK MOSI MISO}"
 		(shape bidirectional)
 		(at 55.88 152.4 180)
 		(effects

@@ -4842,16 +4842,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 49.53) (xy 130.81 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb6305d3-d5d4-43d8-93b3-263e83a2f238")
-	)
-	(wire
-		(pts
 			(xy 57.15 113.03) (xy 69.85 113.03)
 		)
 		(stroke
@@ -4939,6 +4929,16 @@
 			(type default)
 		)
 		(uuid "f46afea4-acc0-4462-b453-79068bf08320")
+	)
+	(wire
+		(pts
+			(xy 120.65 49.53) (xy 130.81 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52f5664-636f-4329-9dd2-4161f2b1dd8f")
 	)
 	(wire
 		(pts
@@ -15761,16 +15761,6 @@
 		)
 		(uuid "9f35bfc4-ac66-4a56-a7e6-cf90e57b2a41")
 	)
-	(label "GPIO0"
-		(at 123.19 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a212a5e0-89e1-4b02-9233-a7c5b49d1415")
-	)
 	(label "GPIO20"
 		(at 161.29 69.85 0)
 		(effects
@@ -16077,6 +16067,17 @@
 			(justify left)
 		)
 		(uuid "b442d333-0e7b-484e-978d-33fbbef0fff9")
+	)
+	(hierarchical_label "GPIO0"
+		(shape bidirectional)
+		(at 120.65 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b91af09c-4106-4642-b6f6-548d16662f20")
 	)
 	(hierarchical_label "GPIO5"
 		(shape bidirectional)
